@@ -5,7 +5,7 @@
 @tailwind utilities;
 @layer base {
   html {
-    @apply font-serif;
+    @apply font-sans;
     @apply text-text-default;
     @apply bg-background-default;
   }

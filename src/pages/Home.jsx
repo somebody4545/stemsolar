@@ -26,7 +26,7 @@ const IntroAnim = () => {
 const Home = () => {
     return (<>
             <div
-                className={'h-screen w-full bg-primary-900 flex flex-col align-center justify-center text-text-50 text-center gap-5 px-16'}>
+                className={'bg-stem bg-fixed bg-primary-900 bg-blend-overlay h-screen w-full flex flex-col align-center justify-center text-text-50 text-center gap-5 px-16'}>
                 <IntroAnim></IntroAnim>
             </div>
             <section
@@ -37,7 +37,7 @@ const Home = () => {
                 <div
                     className={'xl:w-[70rem] w-full min-h-36 flex flex-col md:mx-auto md:py-16 md:flex-row flex-nowrap [&>*]:w-full [&>*]:p-5 [&>*]:relative [&>*]:transition-all [&>*]:cursor-pointer'}>
                     <div
-                        className={'bg-primary-100 hover:bg-background-default hover:outline outline-1 outline-[black]'}>
+                        className={'bg-primary-100 hover:bg-background-default hover:outline outline-1 outline-black'}>
                         <h1 className={'text-3xl pb-5'}>What we did</h1>
                         <p className={'text-lg'}>We have established credibility and built momentum through discussions
                             with decision makers.</p>
@@ -48,7 +48,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div
-                        className={'bg-primary-300 hover:bg-background-default hover:outline outline-1 outline-[black]'}>
+                        className={'bg-primary-300 hover:bg-background-default hover:outline outline-1 outline-black'}>
                         <h1 className={'text-3xl pb-5'}>What we're doing</h1>
                         <p className={'text-lg'}>Tesla STEM’s solar efficiency has been determined to be standard. We
                             are working with Alcott Elementary School.</p>
@@ -59,7 +59,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div
-                        className={'bg-primary-200 hover:bg-background-default hover:outline outline-1 outline-[black]\''}>
+                        className={'bg-primary-200 hover:bg-background-default hover:outline outline-1 outline-black'}>
                         <h1 className={'text-3xl pb-5'}>What we'll do</h1>
                         <p className={'text-lg'}>Expand renewable energy advocacy to more schools, collaborate with
                             local government.</p>
