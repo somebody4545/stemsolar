@@ -10,6 +10,9 @@
     @apply bg-background-default;
   }
 }
+a {
+  color: var(--secondary-600);
+}
 .material-symbols-outlined {
   font-variation-settings:
      'FILL' 0,

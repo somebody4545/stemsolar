@@ -26,45 +26,45 @@ const IntroAnim = () => {
 const Home = () => {
     return (<>
             <div
-                className={'after:bg-stem after:h-full after:w-full after:bg-cover after:absolute after:-z-10 after:top-0 after:left-0 after:bg-fixed after:bg-primary-900 after:bg-blend-overlay h-screen w-full flex flex-col align-center relative justify-center text-text-50 text-center gap-5 px-16'}>
+                className={'z-10 after:bg-stem after:h-full after:w-full after:bg-cover after:absolute after:-z-10 after:top-0 after:left-0 after:bg-fixed after:bg-primary-900 after:bg-blend-overlay h-screen w-full flex flex-col align-center relative justify-center text-text-50 text-center gap-5 px-16'}>
                 <IntroAnim></IntroAnim>
             </div>
             <section
-                className={'py-16 max-sm:pb-0 min-h-[80%] w-full bg-background-default flex flex-col text-text-default gap-5'}>
+                className={'drop-shadow-2xl py-16 max-sm:pb-0 min-h-[80%] w-full bg-background-default flex flex-col text-text-default gap-5'}>
                 <h1 className={"text-6xl font-bold px-20 max-sm:pb-10 max-sm:px-8"}>
                     The Plan
                 </h1>
                 <div
                     className={'xl:w-[70rem] w-full min-h-36 flex flex-col md:mx-auto md:py-16 md:flex-row flex-nowrap [&>*]:w-full [&>*]:p-5 [&>*]:relative [&>*]:transition-all [&>*]:cursor-pointer'}>
                     <div
-                        className={'bg-primary-100 hover:bg-background-default hover:outline outline-1 outline-black'}>
-                        <h1 className={'text-3xl pb-5'}>What we did</h1>
+                        className={'group bg-primary-100 hover:bg-background-default hover:outline -outline-offset-4 outline-4 outline-black overflow-clip'}>
+                        <h1 className={'text-3xl group-hover:font-bold transition-all pb-5'}>What we did</h1>
                         <p className={'text-lg'}>We have established credibility and built momentum through discussions
                             with decision makers.</p>
                         <div className={"w-full min-h-14 h-full"}>
-                            <span className={"material-symbols-outlined text-5xl absolute bottom-5"}>
+                            <span className={"material-symbols-outlined text-5xl absolute bottom-5 group-hover:right-[10%] right-[80%] transition-all"}>
                             arrow_right_alt
                             </span>
                         </div>
                     </div>
                     <div
-                        className={'bg-primary-300 hover:bg-background-default hover:outline outline-1 outline-black'}>
-                        <h1 className={'text-3xl pb-5'}>What we're doing</h1>
+                        className={'group bg-primary-200 hover:bg-background-default hover:outline -outline-offset-4 outline-4  outline-1 outline-black overflow-clip'}>
+                        <h1 className={'text-3xl group-hover:font-bold transition-all pb-5'}>What we're doing</h1>
                         <p className={'text-lg'}>Tesla STEM’s solar efficiency has been determined to be standard. We
                             are working with Alcott Elementary School.</p>
                         <div className={"w-full min-h-14 h-full"}>
-                            <span className={"material-symbols-outlined text-5xl absolute bottom-5"}>
+                            <span className={"material-symbols-outlined text-5xl absolute bottom-5 group-hover:right-[10%] right-[80%] transition-all"}>
                             arrow_right_alt
                             </span>
                         </div>
                     </div>
                     <div
-                        className={'bg-primary-200 hover:bg-background-default hover:outline outline-1 outline-black'}>
-                        <h1 className={'text-3xl pb-5'}>What we'll do</h1>
+                        className={'group bg-primary-300 hover:bg-background-default hover:outline -outline-offset-4 outline-4  outline-1 outline-black overflow-clip'}>
+                        <h1 className={'text-3xl group-hover:font-bold transition-all pb-5'}>What we'll do</h1>
                         <p className={'text-lg'}>Expand renewable energy advocacy to more schools, collaborate with
                             local government.</p>
                         <div className={"w-full min-h-14 h-full"}>
-                            <span className={"material-symbols-outlined text-5xl absolute bottom-5"}>
+                            <span className={"material-symbols-outlined text-5xl absolute bottom-5 group-hover:right-[10%] right-[80%] transition-all"}>
                             arrow_right_alt
                             </span>
                         </div>
