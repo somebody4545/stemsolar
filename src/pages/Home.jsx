@@ -26,7 +26,7 @@ const IntroAnim = () => {
 const Home = () => {
     return (<>
             <div
-                className={'bg-stem bg-fixed bg-primary-900 bg-blend-overlay h-screen w-full flex flex-col align-center justify-center text-text-50 text-center gap-5 px-16'}>
+                className={'after:bg-stem after:h-full after:w-full after:bg-cover after:absolute after:-z-10 after:top-0 after:left-0 after:bg-fixed after:bg-primary-900 after:bg-blend-overlay h-screen w-full flex flex-col align-center relative justify-center text-text-50 text-center gap-5 px-16'}>
                 <IntroAnim></IntroAnim>
             </div>
             <section

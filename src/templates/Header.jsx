@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
     return (
-        <div className="flex flex-col w-full bg-gradient-to-r from-background-600 via-background-600 to-background-800 text-white p-5">
+        <div className="z-10 flex-col w-full bg-gradient-to-r from-background-600 via-background-600 to-background-800 text-white p-5">
             <div className="flex justify-between items-center">
                 <a href="/"><h1 className="text-3xl font-bold">STEM Solar</h1></a>
                 <div className="flex">
