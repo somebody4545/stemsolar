@@ -72,20 +72,36 @@ const Home = () => {
                 </div>
             </section>
             <section
-                className={'py-16 min-h-[80%] w-full bg-background-50 flex flex-col text-text-default gap-5'}>
-                <h1 className={"text-6xl font-bold px-20 pb-10 max-sm:px-8"}>
+                className={'py-16 min-h-[80%] w-full md:pb-24 bg-background-50 flex flex-col text-text-default gap-5'}>
+                <h1 className={"text-6xl font-bold px-20 pb-10 md:pb-24 max-sm:px-8"}>
                     Meet the Team
                 </h1>
                 <div
-                    className={"[&>*]:w-full flex flex-col gap-5 [&>*]:min-h-48 [&>*]:bg-primary-200 mx-auto [&>*]:w-[75vw] [&>*]:max-w-[50rem] [&>*]:rounded-2xl"}>
-                    <div>
-
+                    className={"[&>*]:w-full flex flex-col gap-5 [&>*]:min-h-48 w-full [&>*]:mx-auto [&>*]:bg-primary-200 mx-auto [&>*]:w-4/5 [&>*]:max-w-[75rem]"}>
+                    <div className={'flex flex-col md:flex-row-reverse'}>
+                        <img className={'w-full max-w-80 max-md:mx-auto my-auto p-8'} src="pranav.png"
+                             alt="Pranav Takrani"/>
+                        <div className={'w-full p-8 my-auto'}>
+                            <h1 className={'text-2xl pb-4 font-bold'}>Who we are</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                                est laborum</p>
+                        </div>
                     </div>
-                    <div>
-
-                    </div>
-                    <div>
-
+                    <div className={'flex flex-col md:flex-row'}>
+                        <img className={'w-full max-w-80 max-md:mx-auto my-auto p-8'} src="river.png"
+                             alt="River Clark"/>
+                        <div className={'w-full p-8 my-auto'}>
+                            <h1 className={'text-2xl pb-4 font-bold'}>River Clark</h1>
+                            <p>As a co-founder and project manager of Tesla STEM Solar, I helped lead a dedicated team
+                                in advocating for clean energy initiatives. I also played a key role in integrating STEM
+                                Solar’s clean energy projects into the Environmental Engineering & Sustainable Design
+                                (EESD) class at Tesla STEM, empowering our team to drive impactful sustainability
+                                efforts for years to come.</p>
+                        </div>
                     </div>
                 </div>
             </section>

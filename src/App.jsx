@@ -5,6 +5,7 @@ import Home from "./pages/Home.jsx";
 // import Login  from './pages/login.jsx';
 import Header from "./templates/Header.jsx";
 import Footer from "./templates/Footer.jsx";
+import NoMatch from "./pages/NoMatch.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
               {/* Route to all pages */}
               <Routes>
                   <Route path="/" element={<Home />} />
+                  <Route path="*" element={<NoMatch />} />
               </Routes>
               <Footer />
           </div>

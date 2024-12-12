@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
     return (
         <section className="flex flex-col md:flex-row w-full bg-background-100 p-16 gap-12">
-            <div className={'text-2xl md:w-2/3 flex flex-col align-center h-full my-auto text-center md:text-left font-bold'}>
+            <div className={'text-4xl md:w-2/3 flex flex-col align-center h-full my-auto text-center md:text-left font-bold'}>
                 <h1 className={''}>STEM Solar</h1>
                 {/* socials */}
                 <div className={'flex flex-row gap-5'}>
@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className={'md-w-1/3 flex flex-col align-center h-full my-auto'}>
                 <h1 className={'text-xl font-bold'}>Additional Resources</h1>
-                <a href={"https://tesla.lwsd.org"}>Tesla STEM Website</a>
+                <a className={'text-primary-500 underline'} href={"https://tesla.lwsd.org"}>Tesla STEM Website</a>
             </div>
             <div className={'md-w-1/3 flex flex-col align-center h-full my-auto'}>
                 <h1 className={'text-xl font-bold'}>Contact Us</h1>
