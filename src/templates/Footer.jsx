@@ -6,10 +6,9 @@ const Footer = () => {
             <div className={'text-4xl md:w-2/3 flex flex-col align-center h-full my-auto text-center md:text-left font-bold'}>
                 <h1 className={''}>STEM Solar</h1>
                 {/* socials */}
-                <div className={'flex flex-row gap-5'}>
-                    <a href={"https://www.instagram.com"}><img src="" alt=""/></a>
-                    <a href={"https://www.facebook.com"}><img src="" alt=""/></a>
-                    <a href={"https://www.twitter.com"}><img src="" alt=""/></a>
+                <div className={'flex flex-row gap-4 [&>*]:size-6 pt-8 max-md:mx-auto'}>
+                    <a href={"https://www.instagram.com"}><img src="insta.svg" alt=""/></a>
+                    <a href={"https://www.youtube.com"}><img src="youtube.svg" alt=""/></a>
                 </div>
             </div>
             <div className={'md-w-1/3 flex flex-col align-center h-full my-auto'}>

@@ -26,12 +26,13 @@ const IntroAnim = () => {
 const Home = () => {
     return (<>
             <div
-                className={'z-10 after:bg-stem after:h-full after:w-full after:bg-cover after:absolute after:-z-10 after:top-0 after:left-0 after:bg-fixed after:bg-primary-900 after:bg-blend-overlay h-screen w-full flex flex-col align-center relative justify-center text-text-50 text-center gap-5 px-16'}>
+                className={'z-10 after:bg-stem after:h-full after:w-full after:bg-cover after:absolute after:-z-10 after:top-0 after:left-0 after:bg-fixed after:bg-primary-900 after:bg-blend-overlay h-screen w-full flex flex-col align-center relative justify-center text-text-50 text-center gap-5 px-[5%]'}>
+                <div className={'h-12'}></div>
                 <IntroAnim></IntroAnim>
             </div>
             <section
-                className={'drop-shadow-2xl py-16 max-sm:pb-0 min-h-[80%] w-full bg-background-default flex flex-col text-text-default gap-5'}>
-                <h1 className={"text-6xl font-bold px-20 max-sm:pb-10 max-sm:px-8"}>
+                className={'drop-shadow-2xl py-16 max-md:pb-0 min-h-[80%] w-full bg-background-default flex flex-col text-text-default gap-5'}>
+                <h1 className={"text-6xl font-bold px-20 max-md:pb-10 max-md:px-8"}>
                     The Plan
                 </h1>
                 <div
@@ -42,7 +43,7 @@ const Home = () => {
                         <p className={'text-lg'}>We have established credibility and built momentum through discussions
                             with decision makers.</p>
                         <div className={"w-full min-h-14 h-full"}>
-                            <span className={"material-symbols-outlined text-5xl absolute bottom-5 group-hover:right-[10%] right-[80%] transition-all"}>
+                            <span className={"material-symbols-outlined text-5xl absolute bottom-5 md:group-hover:right-[10%] md:right-[80%] max-md:left-5  transition-all"}>
                             arrow_right_alt
                             </span>
                         </div>
@@ -53,7 +54,7 @@ const Home = () => {
                         <p className={'text-lg'}>Tesla STEM’s solar efficiency has been determined to be standard. We
                             are working with Alcott Elementary School.</p>
                         <div className={"w-full min-h-14 h-full"}>
-                            <span className={"material-symbols-outlined text-5xl absolute bottom-5 group-hover:right-[10%] right-[80%] transition-all"}>
+                            <span className={"material-symbols-outlined text-5xl absolute bottom-5 max-md:left-5 md:group-hover:right-[10%] md:right-[80%]  transition-all"}>
                             arrow_right_alt
                             </span>
                         </div>
@@ -64,7 +65,7 @@ const Home = () => {
                         <p className={'text-lg'}>Expand renewable energy advocacy to more schools, collaborate with
                             local government.</p>
                         <div className={"w-full min-h-14 h-full"}>
-                            <span className={"material-symbols-outlined text-5xl absolute bottom-5 group-hover:right-[10%] right-[80%] transition-all"}>
+                            <span className={"material-symbols-outlined text-5xl absolute bottom-5 md:group-hover:right-[10%] md:right-[80%] max-md:left-5  transition-all"}>
                             arrow_right_alt
                             </span>
                         </div>
@@ -73,7 +74,7 @@ const Home = () => {
             </section>
             <section
                 className={'py-16 min-h-[80%] w-full md:pb-24 bg-background-50 flex flex-col text-text-default gap-5'}>
-                <h1 className={"text-6xl font-bold px-20 pb-10 md:pb-24 max-sm:px-8"}>
+                <h1 className={"text-6xl font-bold px-20 pb-10 md:pb-24 max-md:px-8"}>
                     Meet the Team
                 </h1>
                 <div
