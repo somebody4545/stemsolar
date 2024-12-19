@@ -94,9 +94,9 @@ const Home = () => {
                     </div>
                     <div className={'flex flex-col md:flex-row'}>
                         <img className={'w-full max-w-80 max-md:mx-auto my-auto p-8'} src="river.png"
-                             alt="River Clark"/>
+                             alt="River Clarke"/>
                         <div className={'w-full p-8 my-auto'}>
-                            <h1 className={'text-2xl pb-4 font-bold'}>River Clark</h1>
+                            <h1 className={'text-2xl pb-4 font-bold'}>River Clarke</h1>
                             <p>As a co-founder and project manager of Tesla STEM Solar, I helped lead a dedicated team
                                 in advocating for clean energy initiatives. I also played a key role in integrating STEM
                                 Solar’s clean energy projects into the Environmental Engineering & Sustainable Design

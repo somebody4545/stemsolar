@@ -8,6 +8,8 @@
     @apply font-sans;
     @apply text-text-default;
     @apply bg-background-default;
+    scroll-behavior: smooth;
+
   }
 }
 

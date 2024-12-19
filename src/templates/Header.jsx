@@ -19,8 +19,8 @@ const Header = () => {
                 <div className={`max-md:py-8 max-md:gap-3 flex-col md:flex-row ${isExpanded ? 'flex' : 'hidden'} md:flex`}>
                     <a href="/" className="mx-2">Home</a>
                     <a href="/timeline" className="mx-2">Timeline</a>
-                    <a href="/contact" className="mx-2">Contact Us</a>
-                    <a href="/contact" className="mx-2">Newsletter</a>
+                    <a href="#contact" className="mx-2">Contact Us</a>
+                    <a href="https://stemsolar.substack.com/" className="mx-2">Newsletter</a>
                 </div>
             </div>
         </div>

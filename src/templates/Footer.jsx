@@ -9,6 +9,7 @@ const Footer = () => {
                 <div className={'flex flex-row gap-4 [&>*]:size-6 pt-8 max-md:mx-auto'}>
                     <a href={"https://www.instagram.com"}><img src="insta.svg" alt=""/></a>
                     <a href={"https://www.youtube.com"}><img src="youtube.svg" alt=""/></a>
+                    <a href={"https://stemsolar.substack.com/"}><img src="substack-icon.svg" alt=""/></a>
                 </div>
             </div>
             <div className={'md-w-1/3 flex flex-col align-center h-full my-auto'}>
@@ -16,7 +17,7 @@ const Footer = () => {
                 <a className={'text-primary-500 underline'} href={"https://tesla.lwsd.org"}>Tesla STEM Website</a>
             </div>
             <div className={'md-w-1/3 flex flex-col align-center h-full my-auto'}>
-                <h1 className={'text-xl font-bold'}>Contact Us</h1>
+                <h1 className={'text-xl font-bold'} id={'contact'}>Contact Us</h1>
                 <p>Phone: xxx-xxxx-xxxx</p>
                 <p>Email: admin@stemsolar.something</p>
             </div>
