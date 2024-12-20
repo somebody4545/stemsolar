@@ -70,7 +70,7 @@ const Timeline = () => {
                             beyond graduation. </p>
                     </div>
                 </div>
-                <div className={'absolute h-64 bg-gradient-to-t from-zinc-900 to-transparent w-full bottom-0'}>
+                <div className={'absolute h-64 bg-gradient-to-t from-zinc-900 to-transparent w-full bottom-0 z-20'}>
 
                 </div>
             </div>
