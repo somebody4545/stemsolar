@@ -1,5 +1,6 @@
 import React, {useState, useContext, useEffect, useRef} from "react";
 import gsap from 'gsap';
+
 const IntroAnim = () => {
     const textRef = useRef(null);
 
@@ -37,7 +38,7 @@ const Home = () => {
                 </h1>
                 <div
                     className={'xl:w-[70rem] w-full min-h-36 flex flex-col md:mx-auto md:py-16 md:flex-row flex-nowrap [&>*]:w-full [&>*]:p-5 [&>*]:relative [&>*]:transition-all [&>*]:cursor-pointer'}>
-                    <div
+                    <a href={"/timeline"}
                         className={'group bg-primary-100 hover:bg-background-default hover:outline -outline-offset-4 outline-4 outline-black overflow-clip'}>
                         <h1 className={'text-3xl group-hover:font-bold transition-all pb-5'}>What we did</h1>
                         <p className={'text-lg'}>We have established credibility and built momentum through discussions
@@ -47,8 +48,8 @@ const Home = () => {
                             arrow_right_alt
                             </span>
                         </div>
-                    </div>
-                    <div
+                    </a>
+                    <a href={"/current"}
                         className={'group bg-primary-200 hover:bg-background-default hover:outline -outline-offset-4 outline-4  outline-1 outline-black overflow-clip'}>
                         <h1 className={'text-3xl group-hover:font-bold transition-all pb-5'}>What we're doing</h1>
                         <p className={'text-lg'}>Tesla STEM’s solar efficiency has been determined to be standard. We
@@ -58,8 +59,8 @@ const Home = () => {
                             arrow_right_alt
                             </span>
                         </div>
-                    </div>
-                    <div
+                    </a>
+                    <a href={"/future"}
                         className={'group bg-primary-300 hover:bg-background-default hover:outline -outline-offset-4 outline-4  outline-1 outline-black overflow-clip'}>
                         <h1 className={'text-3xl group-hover:font-bold transition-all pb-5'}>What we'll do</h1>
                         <p className={'text-lg'}>Expand renewable energy advocacy to more schools, collaborate with
@@ -69,7 +70,7 @@ const Home = () => {
                             arrow_right_alt
                             </span>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </section>
             <section
@@ -102,6 +103,14 @@ const Home = () => {
                                 Solar’s clean energy projects into the Environmental Engineering & Sustainable Design
                                 (EESD) class at Tesla STEM, empowering our team to drive impactful sustainability
                                 efforts for years to come.</p>
+                        </div>
+                    </div>
+                    <div className={'flex flex-col md:flex-row-reverse'}>
+                        <img className={'w-full max-w-80 max-md:mx-auto my-auto p-8'} src="pranav2.jpeg"
+                             alt="Pranav Takrani"/>
+                        <div className={'w-full p-8 my-auto'}>
+                            <h1 className={'text-2xl pb-4 font-bold'}>Pranav Takrani</h1>
+                            <p>Hi, I’m Pranav Takrani, co-founder of Tesla STEM solar. I’ve been mainly in charge of the technical aspects of the project, including various cleaning systems, but also managerial roles in the overall growth of the project.</p>
                         </div>
                     </div>
                 </div>
