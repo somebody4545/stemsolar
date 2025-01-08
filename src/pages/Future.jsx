@@ -6,7 +6,7 @@ const Future = () => {
             <section className={'pt-36 pb-14 px-14 bg-background-900 text-text-50'}>
                 <h1 className={'text-6xl font-bold'}>Our Goals</h1>
             </section>
-            <div className={'relative bg-background-900 text-text-50 px-[15%] py-32'}>
+            <div className={'relative bg-background-900 text-text-50 px-[15%] sm:py-32 max-sm:py-4'}>
                 <div className={'flex flex-col-reverse md:flex-row items-center'}>
                     <div className={'w-full md:w-1/2 p-4'}>
                         <h2 className={'text-4xl font-bold pb-2'}>Expand Renewable Energy Advocacy to More Schools</h2>

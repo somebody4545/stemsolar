@@ -8,7 +8,7 @@ const Header = () => {
     };
 
     return (
-        <div className="z-20 flex-col absolute w-full bg-gradient-to-r from-background-600 via-background-600 to-background-800 text-white p-5">
+        <div className="z-20 flex-col fixed top-0 w-full bg-gradient-to-r from-background-600 via-background-600 to-background-800 text-white p-5">
             <div className="flex flex-col md:justify-between md:flex-row items-start md:items-center">
                 <div className={'flex justify-between items-center w-full md:w-auto'}>
                     <a href="/"><h1 className="text-3xl font-bold">STEM Solar</h1></a>
