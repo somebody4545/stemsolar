@@ -8,6 +8,7 @@ import Footer from "./templates/Footer.jsx";
 import NoMatch from "./pages/NoMatch.jsx";
 import Timeline from "./pages/Timeline.jsx";
 import Future from "./pages/Future.jsx";
+import Progress from "./pages/Progress.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
                   <Route path="*" element={<NoMatch />} />
                   <Route path="/timeline" element={<Timeline />} />
                   <Route path={"/future"} element={<Future />} />
+                  <Route path={"/current"} element={<Progress />} />
               </Routes>
               <Footer />
           </div>
