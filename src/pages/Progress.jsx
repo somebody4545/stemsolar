@@ -4,7 +4,7 @@ const Progress = () => {
     return (
         <>
             <section className={'pt-36 pb-14 px-14 bg-background-900 text-text-50'}>
-                <h1 className={'text-6xl font-bold'}>STEM Solar</h1>
+                <h1 className={'text-6xl font-bold'}>STEM Solar - Now</h1>
             </section>
             <div className={'relative bg-background-900 text-text-50 px-[15%] sm:py-32 max-sm:py-4'}>
                 <div className={'flex flex-col-reverse md:flex-row items-center'}>
@@ -13,10 +13,14 @@ const Progress = () => {
                         <p>
                             Using React, Tailwind CSS, and Vercel, we have created a website that showcases our mission
                             and progress, providing a platform for us to connect with potential partners and donors.
+                            Our website has a focus of maintaining visual appeal, while being accessible to all and
+                            following proper web standards to ensure a consistent design across all devices Along with
+                            this, we created a cohesive color scheme and logo to represent our organization.
                         </p>
+                        <a href="/branding.pdf" className={"text-accent-300"}>→ Check out our branding</a>
                     </div>
                     <div className={'w-full md:w-1/2 p-4'}>
-                        <img src="path/to/your/image.jpg" alt="Future Plans" className={'w-full h-auto rounded-lg'}/>
+                        <img src="/website.png" alt="Future Plans" className={'w-full h-auto rounded-lg shadow-inner'}/>
                     </div>
                 </div>
                 <div className={'flex flex-col-reverse md:flex-row-reverse items-center'}>
@@ -38,7 +42,7 @@ const Progress = () => {
                 </div>
                 <div className={'flex flex-col-reverse md:flex-row items-center'}>
                     <div className={'w-full md:w-1/2 p-4'}>
-                        <h2 className={'text-4xl font-bold pb-2'}>Develop a Student Led Sustainability Curriculum</h2>
+                        <h2 className={'text-4xl font-bold pb-2'}></h2>
                         <p>Create a program that trains students in renewable energy, sustainable
                             architecture, and environmental advocacy, ensuring future students are
                             equipped to lead STEM Solar and similar initiatives
