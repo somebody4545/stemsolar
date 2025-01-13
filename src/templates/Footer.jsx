@@ -15,9 +15,10 @@ const Footer = () => {
             <div className={'md-w-1/3 flex flex-col align-center h-full my-auto'}>
                 <h1 className={'text-xl font-bold'}>Additional Resources</h1>
                 <a className={'text-primary-500 underline'} href={"https://tesla.lwsd.org"}>Tesla STEM Website</a>
+                <a className={'text-primary-500 underline'} href={"https://github.com/somebody4545/stemsolar"}>Open Source</a>
             </div>
             <div className={'md-w-1/3 flex flex-col align-center h-full my-auto'}>
-                <h1 className={'text-xl font-bold'} id={'contact'}>Contact Us</h1>
+            <h1 className={'text-xl font-bold'} id={'contact'}>Contact Us</h1>
                 <p>Phone: xxx-xxxx-xxxx</p>
                 <p>Email: admin@stemsolar.something</p>
             </div>

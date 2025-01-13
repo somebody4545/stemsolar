@@ -22,9 +22,9 @@ const Progress = () => {
                             </p>
                             <a href="/branding.pdf" className={"text-accent-300"}>→ Check out our branding</a>
                         </div>
-                        <div className={'w-full md:w-1/2 p-4'}>
-                            <img src="/website.png" alt="Future Plans"
-                                 className={'w-full h-auto rounded-lg shadow-inner'}/>
+                        <div className={'w-full md:w-1/2 p-4 aspect-square'}>
+                            <img src="/website.png" alt="Figma mockup"
+                                 className={'object-cover h-full w-full rounded-lg overflow-hidden'}/>
                         </div>
                     </div>
                     <div className={'flex flex-col-reverse md:flex-row-reverse items-center'}>
@@ -49,80 +49,93 @@ const Progress = () => {
                                 within the district.
                             </p>
                         </div>
-                        <div className={'w-full md:w-1/2 p-4'}>
+                        <div className={'w-full md:w-1/2 p-4 aspect-square'}>
                             <img src="/solarcharger.jpg" alt="Solar Charger"
-                                 className={'w-full h-auto rounded-lg aspect-square'}/>
+                                 className={'object-cover h-full w-full rounded-lg overflow-hidden'}/>
                         </div>
                     </div>
-                </div>
-                <div className={'flex flex-col-reverse md:flex-row items-center'}>
-                    <div className={'w-full md:w-1/2 p-4'}>
-                        <h2 className={'text-4xl font-bold pb-2'}>Education</h2>
-                        <p>Through the Education project our goal was to essentially create immersive lesson plans
-                            targeted at various ages and subclassifications of students ranging from elementary
-                            schoolers to high schoolers to teach them about the STEM Solar initiative as well as
-                            other
-                            environmental science issues. Through our project we created engaging activities to
-                            convey
-                            the educational content in a more interactive and fun manner to encourage more
-                            retention.
-                            Lastly, we collected responses from students to analyze the data regarding how much they
-                            comprehended, how they were impacted and personal changes they will make in their
-                            day-to-day
-                            lives.
-                        </p>
+                    <div className={'flex flex-col-reverse md:flex-row items-center'}>
+                        <div className={'w-full md:w-1/2 p-4'}>
+                            <h2 className={'text-4xl font-bold pb-2'}>Education</h2>
+                            <p>Through the Education project our goal was to essentially create immersive lesson plans
+                                targeted at various ages and subclassifications of students ranging from elementary
+                                schoolers to high schoolers to teach them about the STEM Solar initiative as well as
+                                other
+                                environmental science issues. Through our project we created engaging activities to
+                                convey
+                                the educational content in a more interactive and fun manner to encourage more
+                                retention.
+                                Lastly, we collected responses from students to analyze the data regarding how much they
+                                comprehended, how they were impacted and personal changes they will make in their
+                                day-to-day
+                                lives.
+                            </p>
+                        </div>
+                        <div className={'w-full md:w-1/2 p-4 aspect-square'}>
+                            <img src="/education.jpg" alt="Teaching students"
+                                 className={'object-cover h-full w-full rounded-lg overflow-hidden'}/>
+                        </div>
                     </div>
-                    <div className={'w-full md:w-1/2 p-4'}>
-                        <img src="/education.jpg" alt="Future Plans" className={'w-full h-auto rounded-lg'}/>
+                    <div className={'flex flex-col-reverse md:flex-row-reverse items-center'}>
+                        <div className={'w-full md:w-1/2 p-4'}>
+                            <h2 className={'text-4xl font-bold pb-2'}>Cleaning Systems</h2>
+                            <p>
+                                Our team was asked to make a solution for the manual labor necessary to keep solar
+                                panels
+                                clean so as to maximize STEM Solar’s solar panel energy output while also limiting the
+                                expenses necessary to upkeep them. We made both a simple and complex design to solve
+                                this,
+                                the simple design being cheaper and easier to construct, and the complex design being
+                                more
+                                ideal in terms of function and effectiveness.
+                            </p>
+                        </div>
+                        <div className={'w-full md:w-1/2 p-4 aspect-square'}>
+                            <img src="/cleaning.jpg" alt="Wiper cleaning system"
+                                 className={'object-cover h-full w-full rounded-lg overflow-hidden'}/>
+                        </div>
                     </div>
-                </div>
-                <div className={'flex flex-col-reverse md:flex-row-reverse items-center'}>
-                    <div className={'w-full md:w-1/2 p-4'}>
-                        <h2 className={'text-4xl font-bold pb-2'}>Cleaning Systems</h2>
-                        <p>
-                            Our team was asked to make a solution for the manual labor necessary to keep solar panels
-                            clean so as to maximize STEM Solar’s solar panel energy output while also limiting the
-                            expenses necessary to upkeep them. We made both a simple and complex design to solve this,
-                            the simple design being cheaper and easier to construct, and the complex design being more
-                            ideal in terms of function and effectiveness.
-                        </p>
+                    <div className={'flex flex-col-reverse md:flex-row items-center'}>
+                        <div className={'w-full md:w-1/2 p-4'}>
+                            <h2 className={'text-4xl font-bold pb-2'}>Solar @ Stem</h2>
+                            <p>
+                                The Solar @ STEM group’s goal was to survey the students and staff of Tesla STEM about
+                                their
+                                opinion and knowledge about solar energy. They decided to publish a Microsoft Forms
+                                survey
+                                for students and staff to complete and conducted in-person interviews with teachers to
+                                gather additional information about their knowledge and opinions of solar energy at home
+                                and
+                                in the school. They compiled all the data from these sources and data from other groups
+                                to
+                                create a STEM Solar section in the school’s Climate Action Plan.
+                            </p>
+                        </div>
+                        <div className={'w-full md:w-1/2 p-4 aspect-square'}>
+                            <img src="/atstem.png" alt="Solar @ STEM Polls"
+                                 className={'object-cover h-full w-full rounded-lg overflow-hidden'}/>
+                        </div>
                     </div>
-                    <div className={'w-full md:w-1/2 p-4'}>
-                        <img src="/cleaning.jpg" alt="Future Plans" className={'w-full h-auto rounded-lg'}/>
-                    </div>
-                </div>
-                <div className={'flex flex-col-reverse md:flex-row items-center'}>
-                    <div className={'w-full md:w-1/2 p-4'}>
-                        <h2 className={'text-4xl font-bold pb-2'}>Solar @ Stem</h2>
-                        <p>
-                            The Solar @ STEM group’s goal was to survey the students and staff of Tesla STEM about their
-                            opinion and knowledge about solar energy. They decided to publish a Microsoft Forms survey
-                            for students and staff to complete and conducted in-person interviews with teachers to
-                            gather additional information about their knowledge and opinions of solar energy at home and
-                            in the school. They compiled all the data from these sources and data from other groups to
-                            create a STEM Solar section in the school’s Climate Action Plan.
-                        </p>
-                    </div>
-                    <div className={'w-full md:w-1/2 p-4'}>
-                        <img src="/cleaning.jpg" alt="Future Plans" className={'w-full h-auto rounded-lg'}/>
-                    </div>
-                </div>
-                <div className={'flex flex-col-reverse md:flex-row-reverse items-center'}>
-                    <div className={'w-full md:w-1/2 p-4'}>
-                        <h2 className={'text-4xl font-bold pb-2'}>Community Outreach</h2>
-                        <p>
-                            The goal of period 3 community outreach was to gain the support of administrative
-                            organizations for TS Solar projects to be implemented in schools, particularly Tesla STEM
-                            but also local comprehensive high schools. The team contacted many administrators, in
-                            particular those of Juanita High School, Lake Washington High School, and Kirkland City
-                            Council. They developed informative presentations about TS solar that could be used in the
-                            meetings. The plan was to present to JHS, LWHS, and Kirkland City Council to forge a
-                            partnership that the next group of students doing this unit can use to get approval or
-                            possibly funding for projects to be implemented.
-                        </p>
-                    </div>
-                    <div className={'w-full md:w-1/2 p-4'}>
-                        <img src="/cleaning.jpg" alt="Future Plans" className={'w-full h-auto rounded-lg'}/>
+                    <div className={'flex flex-col-reverse md:flex-row-reverse items-center'}>
+                        <div className={'w-full md:w-1/2 p-4'}>
+                            <h2 className={'text-4xl font-bold pb-2'}>Community Outreach</h2>
+                            <p>
+                                The goal of period 3 community outreach was to gain the support of administrative
+                                organizations for TS Solar projects to be implemented in schools, particularly Tesla
+                                STEM
+                                but also local comprehensive high schools. The team contacted many administrators, in
+                                particular those of Juanita High School, Lake Washington High School, and Kirkland City
+                                Council. They developed informative presentations about TS solar that could be used in
+                                the
+                                meetings. The plan was to present to JHS, LWHS, and Kirkland City Council to forge a
+                                partnership that the next group of students doing this unit can use to get approval or
+                                possibly funding for projects to be implemented.
+                            </p>
+                        </div>
+                        <div className={'w-full md:w-1/2 p-4 aspect-square'}>
+                            <img src="/outreach.png" alt="Outreach"
+                                 className={'object-cover h-full w-full rounded-lg overflow-hidden'}/>
+                        </div>
                     </div>
                 </div>
             </div>
